@@ -29,7 +29,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransectionMo
       title,
       value,
       category,
-      type
+      type,
     }
 
     api.post('/transactions', data)
