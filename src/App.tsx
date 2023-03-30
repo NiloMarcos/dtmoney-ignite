@@ -8,7 +8,7 @@ import { GlobalStyle } from './styles/global';
 
 import { NewTransactionModal } from './components/NewTransactionModal';
 
-import { TransactionsProvider } from './context/TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 import Modal from 'react-modal';
 
